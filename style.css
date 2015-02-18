@@ -1,0 +1,12 @@
+#pizza{
+    width:200;
+    border: 8px solid grey;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0% {left: 0px;}
+    100% {left: 500px;}
+}
