@@ -1,12 +1,45 @@
-#pizza{
-    width:200;
-    border: 8px solid grey;
-    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
-    animation: myfirst 5s;
+html{
+    background: url("http://host2post.com/server13/photos/6se09dtgDVyJDM~/blue-background-highlights-wallpapers.jpg");
+    background-size: cover;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst {
-    0% {left: 0px;}
-    100% {left: 500px;}
+#pizza{
+    width:200;
+    border: 8px solid black;
+    position: relative;
+    -webkit-animation: myanimation 5s infinite; /* Chrome, Safari, Opera */
+    animation: myanimation 5s infinite;
+    animation-delay: 2s;
 }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myanimation {
+    0% {left: 10px; top: 0px;}
+    25% {left: 1000px; top:0px;}
+    50% {left: 1000px; top: 220px;}
+    75% {left: 10px; top: 220px;}
+    100% {left: 10px; top: 0px;}
+}
+
+#lol{
+    font-size: 50;
+    color: black;
+    margin-left: 300;
+    -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst{
+    0% {background: blue;}
+    25% {background: purple;}
+    50% {background: red;}
+    75% {background: yellow;}
+    100% {background: blue;}
+}
+#hah{
+    font-size: 50;
+    color: red;
+    position: absolute;
+    margin-top: 200;
+    margin-left: 480
+}
+
